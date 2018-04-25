@@ -6,6 +6,9 @@ app.get('/hello', (req, res) => {
     res.json( {'msg': 'I eat chickens alive!'})
 });
 
-app.listen( 8080, () => {
+// Define Port
+const port = process.env.PORT || 8080;
+
+app.listen( port , () => {
     console.log('server is ready!')
 } );
