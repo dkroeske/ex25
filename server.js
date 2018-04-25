@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/hello', (req, res) => {
-    res.json( {'msg': 'I eat chickens alive!'})
+    res.json( {'msg': 'I don\'t eat chickens alive!'})
 });
 
 // Define Port
