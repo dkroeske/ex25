@@ -6,6 +6,10 @@ app.get('/hello', (req, res) => {
     res.json( {'msg': 'I don\'t eat chickens alive!'})
 });
 
+app.get('/test', (req, res) => {
+    res.json( {'msg': 'dit is een test endpoint'})
+});
+
 // Define Port
 const port = process.env.PORT || 8080;
 
