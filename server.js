@@ -7,7 +7,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-    res.json( {'msg': 'dit is een test endpoint'})
+    res.json( {'msg': 'dit is een test endpoint.'})
 });
 
 // Define Port
